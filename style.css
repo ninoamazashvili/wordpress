@@ -1,0 +1,72 @@
+
+.navbar-default {
+  background-color: #593ef3;
+  color: #fff;
+}
+
+
+
+.navbar-default .navbar-nav > li > a {
+  color: #fff;
+}
+
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #b01787;
+  background-color: #fff;
+ 
+}
+
+.jumbotron {
+  background-color: #f8f8f8;
+  padding: 40px;
+  text-align: center; 
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+}
+
+.jumbotron h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+.row {
+  margin-top: 20px;
+}
+
+.col-md-6 {
+  background-color: #f8f8f8;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.col-md-6 a {
+  color: #337ab7;
+}
+
+
+
+footer {
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .jumbotron h1 {
+      font-size: 24px;
+  }
+}
+
+.contact-info {
+  background-color: #f8f8f8;
+  padding: 40px;
+  text-align: center; 
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+}
